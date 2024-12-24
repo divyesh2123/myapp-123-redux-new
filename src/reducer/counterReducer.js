@@ -1,6 +1,6 @@
 const initialState = {}
 
-export default (state = 0, { type, payload }) => {
+export default (state = 0, { type }) => {
   switch (type) {
 
   case 'INC':

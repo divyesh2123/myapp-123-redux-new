@@ -4,7 +4,7 @@ import { DecCounter, IncCounter } from './action/counteraction';
 
 export default function Counter() {
 
-    const d= useSelector(y=>y);
+    const d= useSelector(y=>y.counter);
 
     const op = useDispatch();
 
